@@ -15,7 +15,7 @@ pip install  redis -t .
 * zip the content of the folder
 
 * deploy Lambda by uploading the zip
-* make sure Lambda function has access to your cluster (most likely you'll have to deploy lambda into a vpc where the cluster is deployed
+* make sure Lambda function has access to your cluster - most likely you'll have to deploy lambda into a vpc where the cluster is deployed
 
 ## Usage
 If you wish to automate the cleardown rather than trigger it manually:
